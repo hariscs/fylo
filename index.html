@@ -33,22 +33,24 @@
 	</head>
 	<body>
 		<header>
-			<div class="container">
+			<div class="container flex">
 				<div class="logo">
-					<img src="./images/logo.svg" alt="logo" class="logo-img" />
+					<a href="/">
+						<img src="./images/logo.svg" alt="logo" class="logo-img" />
+					</a>
 				</div>
 				<nav>
-					<ul>
-						<li><a href="" class="list-link">Features</a></li>
-						<li><a href="" class="list-link">Team</a></li>
-						<li><a href="" class="list-link">Sign In</a></li>
+					<ul class="flex">
+						<li class="list-item"><a href="" class="list-link">Features</a></li>
+						<li class="list-item"><a href="" class="list-link">Team</a></li>
+						<li class="list-item"><a href="" class="list-link">Sign In</a></li>
 					</ul>
 				</nav>
 			</div>
 		</header>
 
-		<section class="hero grid">
-			<div class="container">
+		<section class="hero">
+			<div class="container grid">
 				<div class="hero-text">
 					<h1 class="hero-title">
 						All your files in one secure location, accessible anywhere.
@@ -58,12 +60,14 @@
 						them wherever you need, share and collaborate with friends, family,
 						and co-workers.
 					</p>
-					<input
-						type="text"
-						class="hero-input input"
-						placeholder="Enter your email."
-					/>
-					<button class="btn btn-primary">Get Started</button>
+					<div class="input-hero">
+						<input
+							type="text"
+							class="hero-input input"
+							placeholder="Enter your email."
+						/>
+						<button class="btn btn-primary action-call">Get Started</button>
+					</div>
 				</div>
 				<div class="hero-img">
 					<img
@@ -75,8 +79,8 @@
 			</div>
 		</section>
 
-		<section class="productive grid">
-			<div class="container">
+		<section class="productive">
+			<div class="container grid">
 				<div class="productive-text">
 					<h2 class="productive-title">Stay productive, wherever you are</h2>
 					<p class="productive-subtitle">
@@ -87,9 +91,10 @@
 						Securely share files and folders with friends, family and colleagues
 						for live collaboration. No email attachments required!
 					</p>
-					<a href="" class="productive-btn btn"
-						>See how Fylo works <img src="./images/icon-arrow.svg" alt=""
+					<a href="" class="productive-btn btn">
+						See how Fylo works <img src="./images/icon-arrow.svg" alt=""
 					/></a>
+
 					<div class="card">
 						<div class="card-text">
 							<p class="card-title">
@@ -133,7 +138,7 @@
 			</div>
 
 			<div class="access-input">
-				<div class="container">
+				<div class="flex-input">
 					<input
 						type="text"
 						class="access-input input"
