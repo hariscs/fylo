@@ -13,6 +13,12 @@
 		/>
 
 		<title>Frontend Mentor | Fylo landing page with two column layout</title>
+		<link
+			rel="stylesheet"
+			href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+			integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
+			crossorigin="anonymous"
+		/>
 		<link rel="preconnect" href="https://fonts.gstatic.com" />
 		<link
 			href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Raleway:wght@400;700&display=swap"
@@ -138,19 +144,21 @@
 			</div>
 
 			<div class="access-input">
-				<div class="flex-input">
-					<input
-						type="text"
-						class="access-input input"
-						placeholder="email@example.com"
-					/>
-					<button class="btn btn-primary">Get Started For Free</button>
+				<div class="container">
+					<div class="flex-input">
+						<input
+							type="text"
+							class="access-input input"
+							placeholder="email@example.com"
+						/>
+						<button class="btn btn-primary">Get Started For Free</button>
+					</div>
 				</div>
 			</div>
 		</section>
 
 		<footer>
-			<div class="container grid">
+			<div class="container grid-footer">
 				<div class="col-1">
 					<div class="col-1-img">
 						<img src="./images/logo.svg" alt="logo" class="logo" />
@@ -162,6 +170,7 @@
 						<p>example@fylo.com</p>
 					</div>
 				</div>
+
 				<div class="col-2">
 					<ul>
 						<li><a href="">About Us</a></li>
@@ -170,6 +179,7 @@
 						<li><a href="">Blog</a></li>
 					</ul>
 				</div>
+
 				<div class="col-3">
 					<ul>
 						<li><a href="">Contact Us</a></li>
@@ -177,7 +187,20 @@
 						<li><a href="">Privacy</a></li>
 					</ul>
 				</div>
-				<div class="col-4"></div>
+				<div class="col-4">
+					<ul>
+						<li class="footer-item">
+							<a href="#"><i class="fab fa-facebook fa-2x"></i></a>
+						</li>
+						<li class="footer-item">
+							<a href="#"><i class="fab fa-instagram fa-2x"></i></a>
+						</li>
+
+						<li class="footer-item">
+							<a href="#"><i class="fab fa-twitter fa-2x"></i></a>
+						</li>
+					</ul>
+				</div>
 			</div>
 		</footer>
 
